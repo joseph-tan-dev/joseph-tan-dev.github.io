@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include blog_post.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    {% if site.google_analytics_tracker_id %}
+      {% include analytics.html %}
+    {% endif %}
+    </body>
+    <style>
+        img {
+            display: block;
+            width: auto !important;
+            max-width: 100%;
+        }
+    </style>
+    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+</html>
