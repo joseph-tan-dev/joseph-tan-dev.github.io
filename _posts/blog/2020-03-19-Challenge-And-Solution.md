@@ -28,7 +28,7 @@ At the end of the day, the challenge boiled down to resolving 3 **<abbr title="t
 
 <p class="codepen" data-height="501" data-theme-id="0" data-default-tab="result" data-user="zixingliu" data-slug-hash="WPWBpJ" style="height: 501px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Highcharts draw on-the-fly">
   <span>See the Pen <a href="https://codepen.io/zixingliu/pen/WPWBpJ/">
-  Highcharts draw on-the-fly</a> by joseph tan (<a href="https://codepen.io/zixingliu">@zixingliu</a>)
+  Highcharts draw on-the-fly</a> by Joseph Tan (<a href="https://codepen.io/zixingliu">@zixingliu</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 

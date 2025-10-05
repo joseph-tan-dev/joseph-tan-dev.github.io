@@ -1,9 +1,9 @@
 # Site settings
-title: joseph tan
+title: Joseph Tan
 email: josephtan607@gmail.com
 url: https://joseph-tan-dev.github.io
-description: Ruby on Rails - ReactJS - NodeJS
-meta_author: joseph tan
+description: Python - ReactJS - NodeJS
+meta_author: Joseph Tan
 
 about:
   header: About
@@ -91,8 +91,8 @@ portfolio:
 # Footer settings
 footer:
   location-header: Location
-  location: Mexico City, Mexico
-  copyright: joseph tan. All Rights Reserved.
+  location: Austin, TX
+  copyright: Joseph Tan. All Rights Reserved.
   social: My Other Whereabouts
   new-thoughts: New Thoughts
 
@@ -100,7 +100,7 @@ footer:
 social:
   - title: github
     tooltip: "Github: Code I am writing"
-    url: https://github.com/p-mob2015
+    url: https://github.com/code-n-cool
   - title: goodreads
     tooltip: "Goodreads: Books I've been reading"
     url: http://www.goodreads.com/jsliu

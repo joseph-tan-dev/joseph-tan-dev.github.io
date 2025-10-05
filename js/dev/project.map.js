@@ -16,8 +16,8 @@ const projects = [
   {
     title: 'Airnest',
     at: [400 ,450],
-    tech: ['React', 'React Native', 'Ruby on Rails', 'Mapbox'],
-    role: 'React / Ruby on Rails Engineer, React Native Lead',
+    tech: ['React', 'React Native', 'Python', 'Mapbox'],
+    role: 'React / Python Engineer, React Native Lead',
     thumb: 'thumbs/airnest-trans.png',
     transparent: true,
     link: 'https://www.measure.com/drone-software/features'
@@ -25,8 +25,8 @@ const projects = [
   { 
     title: 'Robot Riot',
     at: [310, 310],
-    tech: ['Ruby on Rails', 'TDD', 'SOLID', 'Leaderboard'],
-    role: 'Ruby on Rails Developer',
+    tech: ['Python', 'TDD', 'SOLID', 'Leaderboard'],
+    role: 'Python Developer',
     thumb: 'thumbs/fishing-screen.png',
     link: 'https://www.robotriotgames.com'
   },
@@ -49,8 +49,8 @@ const projects = [
   {
     title: 'Simple.Space',
     at: [430,370],
-    tech: ['React', 'Ruby on Rails', 'Sidekiq', 'HAML'],
-    role: 'Ruby on Rails / React Engineer',
+    tech: ['React', 'Python', 'Sidekiq', 'HAML'],
+    role: 'Python / React Engineer',
     thumb: 'thumbs/ss.png',
     link: 'https://www.simple.space'
   },
@@ -132,7 +132,7 @@ const initMap = () => {
   const tile = L.tileLayer('/img/map-bk.jpg').addTo(map);
   map.fitBounds(bounds);
 
-  // Ruby on Rails
+  // Python
   areas['rails'] = L.circle([350, 350], {radius: 150, color: '#C7090F', stroke: false}).addTo(map);
   // Node
   areas['node'] = L.circle([500, 700], {radius: 150, color: '#87C024', stroke: false}).addTo(map);

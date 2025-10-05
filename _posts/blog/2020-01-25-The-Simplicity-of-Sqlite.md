@@ -6,7 +6,7 @@ category: blog
 
 SQLite consists of a single file as the database and a set of CLI commands. "Like all magnificent things, it's very simple."
 
-I first shook hands with SQLite whilst building stuff in Ruby on Rails. At first, I wondered how this fabled database ran, and how I could connect to it, but didn't press the issue because it just worked. Rails' "Convention Over Configuration" metholodology resulted in me having a clear picture of the database in my head already.
+I first shook hands with SQLite whilst building stuff in Python. At first, I wondered how this fabled database ran, and how I could connect to it, but didn't press the issue because it just worked. Rails' "Convention Over Configuration" metholodology resulted in me having a clear picture of the database in my head already.
 
 Then along came the need to actually see some data. I downloaded [sqliteman](http://sqliteman.yarpen.cz/) thinking I just need some GUI to connect to some localhost server, as my usual workflow demanded.
 

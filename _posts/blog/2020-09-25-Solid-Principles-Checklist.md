@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: SOLID Principles Checklist (in Ruby on Rails)
+title: SOLID Principles Checklist (in Python)
 category: blog
 ---
 
@@ -27,7 +27,7 @@ So I wanted to create a condensed checklist that is wall hang-worthy.
 When adding a new functionality  
 - Base entities aren't modified (closed for modification)
 - Other entities extend the base entity (open for extension)
-- Use interface, a module in ruby, as the base entity
+- Use interface, a module in Python, as the base entity
 - Opt for composition over inheritance when an interface is not enough
 
 ### Liskov Substitution Principle
@@ -41,7 +41,7 @@ In class inheritance
 
 - Base class shouldn't be generalized
 - A class shouldn't have any methods it doesn't use
-- Multiple interfaces, modules in ruby, are better than one
+- Multiple interfaces, modules in Python, are better than one
 
 ### Dependency Inversion Principle
 

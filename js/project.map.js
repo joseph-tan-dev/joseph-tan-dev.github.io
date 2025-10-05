@@ -15,8 +15,8 @@ var projects = [{
 }, {
   title: 'Airnest',
   at: [400, 450],
-  tech: ['React', 'React Native', 'Ruby on Rails', 'Mapbox'],
-  role: 'React / Ruby on Rails Engineer, React Native Lead',
+  tech: ['React', 'React Native', 'Python', 'Mapbox'],
+  role: 'React / Python Engineer, React Native Lead',
   thumb: 'thumbs/airnest-trans.png',
   transparent: true,
   link: 'https://www.measure.com/drone-software/features',
@@ -24,8 +24,8 @@ var projects = [{
 }, {
   title: 'Robot Riot',
   at: [310, 310],
-  tech: ['Ruby on Rails', 'TDD', 'SOLID', 'Leaderboard'],
-  role: 'Ruby on Rails Developer',
+  tech: ['Python', 'TDD', 'SOLID', 'Leaderboard'],
+  role: 'Python Developer',
   thumb: 'thumbs/fishing-screen.png',
   link: 'https://www.robotriotgames.com',
   icon: '/img/project-icons/robotriot.ico'
@@ -48,8 +48,8 @@ var projects = [{
 }, {
   title: 'Simple.Space',
   at: [430, 370],
-  tech: ['React', 'Ruby on Rails', 'Sidekiq', 'HAML'],
-  role: 'Ruby on Rails / React Engineer',
+  tech: ['React', 'Python', 'Sidekiq', 'HAML'],
+  role: 'Python / React Engineer',
   thumb: 'thumbs/ss.png',
   link: 'https://www.simple.space',
   icon: '/img/project-icons/simplespace.png'
@@ -74,7 +74,7 @@ var projects = [{
 }, {
   title: 'Linux Academy',
   at: [350, 430],
-  tech: ['React', 'Ruby on Rails', 'D3'],
+  tech: ['React', 'Python', 'D3'],
   role: 'Contractor (via Toptal)',
   thumb: 'thumbs/linux.png',
   transparent: true,
@@ -152,7 +152,7 @@ var initMap = function initMap() {
   });
   var bounds = [[0, 0], [1000, 1000]];
   var tile = L.tileLayer('/img/map-bk.jpg').addTo(map);
-  map.fitBounds(bounds); // Ruby on Rails
+  map.fitBounds(bounds); // Python
 
   areas['rails'] = L.circle([350, 350], {
     radius: 150,

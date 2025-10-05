@@ -163,7 +163,7 @@ Note the resulting HTML page source:
   </div>
   ...
   <div class="article">
-    <span class="author">joseph tan</span>
+    <span class="author">Joseph Tan</span>
     <span class="title">BEM and SCSS in ReactJS applications</span>
   </div>
   ...
